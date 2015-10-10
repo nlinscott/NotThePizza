@@ -215,15 +215,19 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
-# =============== #
-# Unity generated #
-# =============== #
-[Tt]emp/
-[Oo]bj/
-[Bb]uild
-[Ll]ibrary/
-sysinfo.txt
-*.stackdump
+
+*.sln
+ *.userprefs
+ *.csproj
+ *.pidb
+ *.unityproj
+ .DS_Store
+ /Library/FailedAssetImports.txt
+ /Library/cache/
+ /Library/previews/
+ /Library/ScriptAssemblies
+ /obj
+ /Temp
  
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
