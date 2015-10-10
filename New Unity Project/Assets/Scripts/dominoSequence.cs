@@ -10,6 +10,6 @@ public class dominoSequence : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		Time.timeScale = 5;
+		Time.timeScale = 8;
 	}
 }
