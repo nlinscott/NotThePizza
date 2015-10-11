@@ -7,12 +7,13 @@ public class MakeFall : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-			GetComponent<Rigidbody> ().AddForceAtPosition(new Vector3(0,-1000,0),new Vector3(0,0,0));
+	
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Update() {
+        if (Input.GetKeyDown("space"))
+            GetComponent<Rigidbody> ().AddForceAtPosition(new Vector3(0,-20,0),new Vector3(0,0,0));        
+    }
 	
 }

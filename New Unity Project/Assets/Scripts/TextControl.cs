@@ -4,7 +4,7 @@ using System.Collections;
 public class TextControl : MonoBehaviour {
 
 
-	public bool isDemoButton = false;
+	public bool isDemoButton = true;
 
 	void OnMouseEnter()
 	{
