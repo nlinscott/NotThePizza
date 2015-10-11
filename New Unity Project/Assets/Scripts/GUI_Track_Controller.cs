@@ -8,7 +8,6 @@ public class GUI_Track_Controller : MonoBehaviour {
 	public GameObject rightTrack = null;
 	public GameObject straightTrack = null;
 	public GameObject bridge = null;
-	private GameObject startingObject = null;
 
 	public float moveSpeed;
 
